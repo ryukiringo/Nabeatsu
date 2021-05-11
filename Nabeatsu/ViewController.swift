@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     
     @IBAction func random() {
         number = Int.random(in: 0...100)
+        countLabel.text = String(number)
         isAho ()
     }
 
