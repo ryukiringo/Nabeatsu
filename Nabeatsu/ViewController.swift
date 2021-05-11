@@ -70,15 +70,17 @@ class ViewController: UIViewController {
         var numberForCheck: Int = 2
         if number == 1 {
             return true
+        } else if number  == 2 {
+            return false
         } else {
             while (number % numberForCheck) != 0 {
                 numberForCheck += 1
             }
             
             if numberForCheck ==  number {
-                return false
-            } else  {
                 return true
+            } else  {
+                return false
             }
         }
     }
