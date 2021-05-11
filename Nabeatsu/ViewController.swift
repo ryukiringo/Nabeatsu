@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             faceLabel.text = "(∪＾ω＾)ゴ！"
         } else if (number % 3) == 0 {
             faceLabel.text = "ﾍ(ﾟ∀ﾟﾍ)ｱﾋｬ"
-        } else if number != 0 {
+        } else {
             while checkNum != 0 {
                 if (checkNum % 10) == 3 {
                     faceLabel.text = "ﾍ(ﾟ∀ﾟﾍ)ｱﾋｬ"
