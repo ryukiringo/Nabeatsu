@@ -43,10 +43,10 @@ class ViewController: UIViewController {
         
         if number == 0 {
             faceLabel.text = "(゜o゜)"
-        } else if (number % 5) == 0 {
-            faceLabel.text = "(∪＾ω＾)ゴ！"
         } else if (number % 7) == 0 {
             faceLabel.text = "(゜o゜)"
+        } else if (number % 5) == 0 {
+            faceLabel.text = "(∪＾ω＾)ゴ！"
         } else if (number % 3) == 0 {
             faceLabel.text = "ﾍ(ﾟ∀ﾟﾍ)ｱﾋｬ"
         } else if number != 0 {
